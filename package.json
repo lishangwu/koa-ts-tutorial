@@ -1,0 +1,51 @@
+{
+  "name": "koa-ts-tutorial",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=bSVfmDbAsQg&amp;list=PL1sZ2OJpPmWZL0iwsy5ekCMHQ-lx7zysD",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "ts-node-dev src/server.ts",
+    "test": "NODE_ENV=test PORT=7788 jest",
+    "test:watch": "npm run test -- --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lishangwu/koa-ts-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lishangwu/koa-ts-tutorial/issues"
+  },
+  "homepage": "https://github.com/lishangwu/koa-ts-tutorial#readme",
+  "dependencies": {
+    "koa": "^2.12.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.0.1",
+    "koa2-cors": "^2.0.6",
+    "redis": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/koa": "^2.11.3",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.4.1",
+    "@types/koa2-cors": "^2.0.1",
+    "@types/node": "^14.0.13",
+    "@types/redis": "^2.8.22",
+    "@types/supertest": "^2.0.9",
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "superjest": "^0.1.0",
+    "ts-jest": "^26.1.0",
+    "ts-node-dev": "^1.0.0-pre.47"
+  }
+}
